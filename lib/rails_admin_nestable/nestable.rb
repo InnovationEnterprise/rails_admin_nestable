@@ -85,7 +85,7 @@ module RailsAdmin
               end
 
               if @nestable_conf.list?
-                @tree_nodes = query.order("#{@options[:position_field]} DESC")
+                @tree_nodes = query.order("#{@options[:position_field]} DESC").last(20)
               end
 
               render action: @action.template_name
