@@ -1,3 +1,4 @@
+require 'pry'
 module RailsAdmin
   module Config
     module Actions
@@ -85,6 +86,7 @@ module RailsAdmin
               end
 
               if @nestable_conf.list?
+                binding.pry
                 @tree_nodes = query.order("#{@options[:position_field]} DESC").last(20)
               end
 
