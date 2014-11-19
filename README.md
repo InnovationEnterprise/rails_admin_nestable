@@ -7,6 +7,11 @@ Sample demo available at: https://github.com/dalpo/rails_admin_nestable_demo
 [![Gem Version](https://badge.fury.io/rb/rails_admin_nestable.png)](http://badge.fury.io/rb/rails_admin_nestable)
 [![Code Climate](https://codeclimate.com/github/dalpo/rails_admin_nestable.png)](https://codeclimate.com/github/dalpo/rails_admin_nestable)
 
+## Differences from the original gem which is forked.
+
+narrowing down the list that we get from nestable up to 50.
+
+
 ## Installation
 
 To enable rails_admin_nestable, add the following to your `Gemfile`:
